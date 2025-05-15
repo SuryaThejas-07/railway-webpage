@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul{
+    display: flex;
+    
+    
+}
+h2{
+    text-align: center;
+    color: white;
+}
+li{
+    list-style-type: none;
+    display: inline;
+    float: left;
+    padding: 5px 10px;
+    text-align: center;
+    box-shadow: 5px 2px 5px rgba(0 ,0, 0, 0.2);
+    margin-left: 10px;
+    background-color: #000000;
+    color: yellow;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    
+
+
+}
+.left-top{
+    display: flex;
+    align-items: center;
+    
+}
+nav{
+   
+    border: 3px solid rgba(7, 99, 21, 0.2);
+    background-color: rgba(81, 79, 79, 0.6);
+    backdrop-filter: blur(2px);
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+
+
+}
+.irctc{
+    background-color: white;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+    width: 70px;
+    border: 2px solid rgb(255, 255, 255);
+    
+}
+
+input{
+    padding: 10px;
+    padding-left: 40px;
+    border: none;
+    margin-left: 0px;
+
+    
+}
+i{
+    background-color: white;
+    padding: 10px;
+    margin-right: 0px;
+}
+.search{
+    display: flex;
+    height:50px;
+    width: auto;
+}
+
+body{
+    background-image:url(/icons/railway-6858240_640.jpg);
+    background-repeat: no-repeat;
+    background-size: cover  ;
+}
+section h1{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 100px;
+}

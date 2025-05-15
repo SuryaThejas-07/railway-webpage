@@ -1,0 +1,101 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    color:yellow;
+    background-color:white;
+}
+
+header {
+    background-color: #333;
+    color: yellow;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color:yellow;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px 50px 20px 30px;
+    background-color: rgb(0, 0, 0);
+    /* border: 1px solid #ddd; */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+    color:yellow;
+}
+
+form label {
+    display: block;
+    margin-bottom: 8px;
+    color: #ffffff;
+}
+
+form input[type="text"],
+form input[type="password"],
+form input[type="date"],
+form input[type="number"],
+form select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+form input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #1100ff;
+    color:yellow;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+    background-color: #4950df;
+}
+
+p {
+    text-align: center;
+}
+.btns{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+    
+}
+.home-btn,.details-btn{
+    width: 160px;
+    padding: 10px;
+    background-color: #1100ff;
+    color: yellow;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.home-btn:hover,.details-btn:hover{
+    background-color: #4950df;
+}
